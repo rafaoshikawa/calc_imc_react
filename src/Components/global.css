@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: #ffffffde;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 980px;
+  width: 100%;
+}
+body {
+  padding-top: 40px;
+  background-color: #242424;
+}
+
+.footer-container {
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+}
+
+.react {
+  color: #6ec1e4;
+}
+
+.react-logo {
+  margin-bottom: -8px;
+  width: 30px;
+  height: 30px;
+  transition: transform 1s ease-in-out;
+}
+
+.react-logo {
+  transform: rotate(45deg); /* Altere o ângulo conforme necessário */
+  animation: rotateAnimation 3s infinite linear; /* Adiciona uma animação de rotação contínua */
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

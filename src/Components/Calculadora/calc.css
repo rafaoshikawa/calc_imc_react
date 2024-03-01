@@ -1,0 +1,67 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  width: 700px;
+  background-color: #1d2021;
+  border-radius: 4px;
+  margin-top: 30px;
+  padding: 20px;
+  box-shadow: -9px 11px 26px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -9px 11px 26px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -9px 11px 26px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 50px;
+}
+.contentLabel {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.contentInput {
+  padding: 10px 5px;
+  width: 80px;
+  font-size: 1rem;
+  border-radius: 4px;
+  background-color: #3b3b3b;
+  color: #ffffffde;
+  font-weight: bold;
+  border: 1px solid #ffffff;
+}
+
+.contentButton {
+  padding: 10px 30px;
+  margin-top: 30px;
+  max-width: fit-content;
+  border-radius: 5px;
+  background-color: #1a7fa5;
+  color: #fff;
+  font-weight: bold;
+  border: 2px solid #2d2c2c;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #1a80a59d;
+}
+.result {
+  display: grid;
+  width: 400px;
+}
+.resultText {
+  margin-top: 30px;
+  text-align: start;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.description {
+  margin-top: 10px;
+  text-align: start;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 500px) {
+  .result {
+    width: 300px;
+  }
+}
