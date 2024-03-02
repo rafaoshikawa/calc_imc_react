@@ -3,14 +3,14 @@ import reactImage from "../../assets/react.png";
 
 function footer() {
   return (
-    <footer class="container">
-      <div class="footer-container">
+    <footer className="container">
+      <div className="footerContainer">
         <p>Rafa Oshikawa</p>
         <p>
           primeiro projeto desenvolvido com
-          <span class="react">
+          <span className="react">
             {" "}
-            React <img src={reactImage} alt="React Logo" class="react-logo" />
+            React <img src={reactImage} alt="React Logo" className="reactLogo" />
           </span>
         </p>
       </div>

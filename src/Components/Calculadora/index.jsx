@@ -8,6 +8,12 @@ function Calc() {
   const [resultado, setResultado] = useState(null);
   const [descricao, setDescricao] = useState("");
 
+  const formatarPeso = (valor) => {
+    // Adapte a lógica de formatação conforme necessário
+    // Aqui estamos removendo quaisquer caracteres não numéricos e limitando a um dígito antes do ponto decimal
+    return valor.replace(/[^\d.]/g, "").slice(0, 4);
+  };
+
   const calcularIMC = () => {
     // Verifique se a altura e o peso são números válidos
     if (!altura || !peso || isNaN(altura) || isNaN(peso)) {
@@ -52,9 +58,14 @@ function Calc() {
           onChange={(e) => setAltura(e.target.value)}
         />
 
-        <label className="contentLabel">Peso</label>
-        <InputMask
-          mask="99.9"
+        <label className="contentLabel">
+          Peso:{" "}
+          <p className="instruction">
+            utilize o " . " para as gramas (Opcional)
+          </p>
+          <p className="instruction">Ex: 89.35</p>
+        </label>
+        <input
           className="contentInput"
           type="text"
           placeholder="69.2"

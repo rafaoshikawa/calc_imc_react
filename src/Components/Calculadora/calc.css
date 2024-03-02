@@ -17,6 +17,11 @@
   margin-top: 20px;
   font-size: 1.5rem;
   font-weight: bold;
+  text-align: center;
+}
+.instruction {
+  font-size: 0.8rem;
+  color: #767474;
 }
 .contentInput {
   padding: 10px 5px;

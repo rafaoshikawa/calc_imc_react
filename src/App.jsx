@@ -9,7 +9,7 @@ import Footer from "./Components/footer";
 function App() {
   return (
     <>
-      <header class="container">
+      <header className="container">
         <h1>Calculadora IMC</h1>
       </header>
       <Calc />
