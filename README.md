@@ -1,8 +1,7 @@
-# React + Vite
+# Preview da calculadora em tela desktop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](https://github.com/rafaoshikawa/calc_imc_react/assets/139592987/d90de89f-e305-4ede-a785-63e8b8c8a6f1)
 
-Currently, two official plugins are available:
+# Preview da calculadora em tela mobile
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/rafaoshikawa/calc_imc_react/assets/139592987/1b9505b4-ee00-4e97-8523-ea77b5d7af89)
